@@ -1,0 +1,15 @@
+name: Update GraphQL schema
+#on:
+#  schedule:
+#    - cron: "0 0 * * *"
+on: push
+
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: martinbonnin/update-graphql-schema@main
+        with:
+          endpoint: "https://kiki-conf.ew.r.appspot.com/graphql"
+          schema: "schema.graphqls"
