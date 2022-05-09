@@ -8,7 +8,7 @@ jobs:
   update:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - uses: martinbonnin/update-graphql-schema@main
         with:
           endpoint: "https://kiki-conf.ew.r.appspot.com/graphql"
