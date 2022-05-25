@@ -12,4 +12,4 @@ jobs:
       - uses: martinbonnin/update-graphql-schema@main
         with:
           endpoint: "https://kiki-conf.ew.r.appspot.com/graphql"
-          schema: "src/main/graphqls/schema.graphqls"
+          schema: "src/main/graphql/schema.graphqls"
