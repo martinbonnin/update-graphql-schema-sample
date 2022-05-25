@@ -1,1 +1,1 @@
-README
+A test repo for https://github.com/martinbonnin/update-graphql-schema
